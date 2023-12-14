@@ -91,6 +91,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Program Files\boost\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -117,6 +119,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Program Files\boost\boost_1_72_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>Default</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -143,10 +147,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="MagicSquares.cpp" />
+    <ClCompile Include="MagicSquaresCalc\MagicSquare.cpp" />
+    <ClCompile Include="MagicSquaresCalc\Square.cpp" />
+    <ClCompile Include="MagicSquaresWorkerThread.cpp" />
     <ClCompile Include="SquaresFrame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MagicSquares.h" />
+    <ClInclude Include="MagicSquaresCalc\MagicSquare.h" />
+    <ClInclude Include="MagicSquaresCalc\Square.h" />
     <ClInclude Include="SquaresFrame.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

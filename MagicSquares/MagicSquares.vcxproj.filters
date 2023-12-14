@@ -21,12 +21,27 @@
     <ClCompile Include="SquaresFrame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MagicSquaresCalc\MagicSquare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicSquaresCalc\Square.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicSquaresWorkerThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MagicSquares.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SquaresFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicSquaresCalc\MagicSquare.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicSquaresCalc\Square.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
